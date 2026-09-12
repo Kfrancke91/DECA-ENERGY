@@ -22,12 +22,12 @@ export const Footer: React.FC<FooterProps> = ({
   };
 
   return (
-    <footer className="bg-[#020b12] text-neutral-400 border-t border-white/10 py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+    <footer className="bg-[#020b12] text-neutral-400 border-t border-white/10 py-4 sm:py-4.5">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-3 sm:space-y-3.5">
         {/* Main compact row */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-3 md:gap-6">
           {/* Brand & Slogan */}
-          <div className="flex flex-col sm:flex-row items-center gap-3 text-center sm:text-left">
+          <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2.5 sm:gap-3 text-center sm:text-left">
             <DecaLogo size="sm" alt="DECA Desidera Energy Consulting Agency AB" />
             <span className="hidden sm:inline text-white/20">|</span>
             <p className="text-xs text-neutral-300 font-medium">
@@ -37,7 +37,7 @@ export const Footer: React.FC<FooterProps> = ({
 
           {/* Navigation Links (inline) */}
           <nav aria-label="Footer navigation">
-            <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs font-mono">
+            <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1 text-xs font-mono">
               {content.links.map((link, idx) => (
                 <li key={idx}>
                   <a
@@ -77,7 +77,7 @@ export const Footer: React.FC<FooterProps> = ({
         </div>
 
         {/* Divider & Bottom bar */}
-        <div className="pt-4 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] font-mono text-neutral-500">
+        <div className="pt-2.5 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px] font-mono text-neutral-500">
           <div>{content.rights}</div>
 
           <button

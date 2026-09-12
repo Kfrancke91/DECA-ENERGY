@@ -136,7 +136,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
   )}`;
 
   return (
-    <section id="contact" className="py-14 sm:py-28 bg-[#03111c] text-white relative overflow-hidden">
+    <section id="contact" className="pt-12 sm:pt-20 pb-10 sm:pb-16 bg-[#03111c] text-white relative overflow-hidden">
       {/* Background ambient lighting */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-emerald-500/5 blur-[120px] pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-teal-500/5 blur-[120px] pointer-events-none" />
