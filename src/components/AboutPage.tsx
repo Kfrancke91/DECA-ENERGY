@@ -264,7 +264,7 @@ END:VCARD`;
             </h3>
             <p className="text-neutral-300 text-sm sm:text-base leading-relaxed mb-6 font-sans">
               {isEn
-                ? 'Whether you require product agency representation, grid interconnection reviews, or Nordic market entrance advisory, we welcome your dialogue.'
+                ? 'Whether you require product agency representation, grid interconnection reviews, or Nordic & European market entrance advisory, we welcome your dialogue.'
                 : 'Oavsett om det gäller produktförsäljning, nätanslutning eller etablering på den nordiska marknaden, är du varmt välkommen att höra av dig.'}
             </p>
             <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3 sm:gap-4">
