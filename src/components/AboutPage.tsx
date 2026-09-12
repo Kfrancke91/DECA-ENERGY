@@ -151,7 +151,7 @@ END:VCARD`;
             <div className="pt-4 flex items-center justify-between text-xs text-neutral-500 font-mono border-t border-neutral-100">
               <div className="flex items-center gap-1.5">
                 <Globe2 className="w-4 h-4 text-emerald-600" />
-                <span>{isEn ? 'Sweden • Nordics • Europe' : 'Sverige • Norden • Europa'}</span>
+                <span>{isEn ? 'Around Europe' : 'Runt om i Europa'}</span>
               </div>
               <span className="text-emerald-700 font-bold">
                 {isEn ? '7 Core Pillars' : '7 Kärnområden'}
