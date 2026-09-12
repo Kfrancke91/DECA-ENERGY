@@ -1,6 +1,7 @@
 import React from 'react';
 import { MoveRight } from 'lucide-react';
 import { TranslationContent } from '../types';
+import worldMapImg from '../assets/home.world-map.jpg';
 
 interface HeroProps {
   content: TranslationContent['hero'];
@@ -13,7 +14,7 @@ export const Hero: React.FC<HeroProps> = ({ content, onNavigate }) => {
       <div className="hero-map-background">
         <img
           data-image-slot="home.world-map"
-          src="/assets/slots/home.world-map.jpg"
+          src={worldMapImg}
           alt="World map with luminous energy connections"
           width="1440"
           height="560"
