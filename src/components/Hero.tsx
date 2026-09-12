@@ -22,10 +22,6 @@ export const Hero: React.FC<HeroProps> = ({ content, onNavigate }) => {
       </div>
       <div className="hero-content shell">
         <div className="hero-copy">
-          <div className="eyebrow">
-            <span className="eyebrow-line" />
-            {content.eyebrow}
-          </div>
           <h1 aria-label={`${content.titleStart} ${content.titleAccent}`}>
             {content.titleStart} <em>{content.titleAccent}</em>
           </h1>

@@ -56,9 +56,9 @@ END:VCARD`;
   };
 
   return (
-    <div className="pt-24 pb-10 sm:pb-12 bg-[#f8faf8] text-[#0c1a21] min-h-screen">
+    <div className="pb-10 sm:pb-12 bg-[#f8faf8] text-[#0c1a21] min-h-screen">
       {/* Top Banner & Header */}
-      <div className="bg-[#03111c] text-white py-14 sm:py-20 border-b border-white/10 relative overflow-hidden">
+      <div className="bg-[#03111c] text-white pt-28 sm:pt-36 pb-14 sm:pb-20 border-b border-white/10 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-emerald-950/40 via-transparent to-transparent pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           {/* Back to Home Button */}

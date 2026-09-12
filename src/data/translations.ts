@@ -11,7 +11,7 @@ export const translations: Record<Language, TranslationContent> = {
       cta: 'Starta en dialog',
     },
     hero: {
-      eyebrow: 'DECA Desidera Energy Consulting Agency AB',
+      eyebrow: '',
       titleStart: 'Där energi möter',
       titleAccent: 'marknader & människor.',
       tagline: 'Where Energy Meets Markets & People',
@@ -219,7 +219,7 @@ export const translations: Record<Language, TranslationContent> = {
       cta: 'Start a dialogue',
     },
     hero: {
-      eyebrow: 'DECA Desidera Energy Consulting Agency AB',
+      eyebrow: '',
       titleStart: 'Where Energy Meets',
       titleAccent: 'Markets & People.',
       tagline: 'Where Energy Meets Markets & People',
