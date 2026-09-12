@@ -69,7 +69,7 @@ export const translations: Record<Language, TranslationContent> = {
       role: 'Founder - International Business Development',
       company: 'DECA DESIDERA ENERGY CONSULTING AGENCY AB',
       bio: 'Med mångårig internationell bakgrund inom solenergi och batterilagring fungerar Daniel Desidera som en bro mellan tillverkare, utvecklare, EPC-bolag och systemägare.',
-      location: 'Sverige',
+      location: 'Runt om i Europa',
       email: 'daniel@deca-energy.com',
       linkedin: 'https://www.linkedin.com/in/danieldesidera',
       website: 'deca-energy.com',
@@ -164,7 +164,7 @@ export const translations: Record<Language, TranslationContent> = {
       directTitle: 'Direktkontakt',
       directDesc: 'Tveka inte att höra av dig direkt för brådskande eller konfidentiella förfrågningar.',
       emailLabel: 'E-post DECA Energy',
-      locationLabel: 'Plats & Verksamhetsområde',
+      locationLabel: 'Verksamhetsområde',
       form: {
         eyebrow: 'Skicka en förfrågan',
         title: 'Berätta vad du behöver hjälp med.',
@@ -198,7 +198,7 @@ export const translations: Record<Language, TranslationContent> = {
       tagline: 'Where Energy Meets Markets & People.',
       company: 'DECA Desidera Energy Consulting Agency AB',
       rights: '© 2026 DECA Desidera Energy Consulting Agency AB. Alla rättigheter förbehållna.',
-      location: 'Sverige',
+      location: 'Runt om i Europa',
       backToTop: 'Till toppen ↑',
       links: [
         { label: 'Hem', href: '#home' },
@@ -277,7 +277,7 @@ export const translations: Record<Language, TranslationContent> = {
       role: 'Founder - International Business Development',
       company: 'DECA DESIDERA ENERGY CONSULTING AGENCY AB',
       bio: 'With deep international roots across the solar photovoltaic and battery storage sectors, Daniel Desidera serves as a trusted bridge between global manufacturers, Scandinavian developers, EPC contractors, and grid operators.',
-      location: 'Sweden',
+      location: 'Around Europe',
       email: 'daniel@deca-energy.com',
       linkedin: 'https://www.linkedin.com/in/danieldesidera',
       website: 'deca-energy.com',
@@ -372,7 +372,7 @@ export const translations: Record<Language, TranslationContent> = {
       directTitle: 'Direct contact',
       directDesc: 'Do not hesitate to reach out directly for urgent or confidential inquiries.',
       emailLabel: 'Email DECA Energy',
-      locationLabel: 'Location & Operating Scope',
+      locationLabel: 'Operating Scope',
       form: {
         eyebrow: 'Send an inquiry',
         title: 'Tell us what you need help with.',
@@ -406,7 +406,7 @@ export const translations: Record<Language, TranslationContent> = {
       tagline: 'Where Energy Meets Markets & People.',
       company: 'DECA Desidera Energy Consulting Agency AB',
       rights: '© 2026 DECA Desidera Energy Consulting Agency AB. All rights reserved.',
-      location: 'Sweden',
+      location: 'Around Europe',
       backToTop: 'Back to top ↑',
       links: [
         { label: 'Home', href: '#home' },
