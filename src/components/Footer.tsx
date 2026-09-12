@@ -28,7 +28,7 @@ export const Footer: React.FC<FooterProps> = ({
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Brand & Slogan */}
           <div className="flex flex-col sm:flex-row items-center gap-3 text-center sm:text-left">
-            <DecaLogo size="sm" alt="DECA Energy Consulting AB" />
+            <DecaLogo size="sm" alt="DECA Desidera Energy Consulting Agency AB" />
             <span className="hidden sm:inline text-white/20">|</span>
             <p className="text-xs text-neutral-300 font-medium">
               {content.tagline}

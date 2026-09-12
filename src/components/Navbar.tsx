@@ -59,9 +59,9 @@ export const Navbar: React.FC<NavbarProps> = ({
               handleLinkClick('home');
             }}
             className="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 rounded-md p-1 -ml-1"
-            aria-label="DECA Energy Consulting AB"
+            aria-label="DECA Desidera Energy Consulting Agency AB"
           >
-            <DecaLogo size="sm" alt="DECA Energy Consulting AB" />
+            <DecaLogo size="sm" alt="DECA Desidera Energy Consulting Agency AB" />
           </a>
 
           {/* Desktop Navigation */}

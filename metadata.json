@@ -1,6 +1,6 @@
 {
-  "name": "DECA Energy Consulting AB",
-  "description": "DECA Energy Consulting AB - Strategic advisory, Solar PV design, BESS commissioning, and international market development in Sweden and Europe.",
+  "name": "DECA Desidera Energy Consulting Agency AB",
+  "description": "DECA Desidera Energy Consulting Agency AB - Strategic advisory, Solar PV design, BESS commissioning, and international market development in Sweden and Europe.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

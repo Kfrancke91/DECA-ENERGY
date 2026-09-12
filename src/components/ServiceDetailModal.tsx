@@ -134,8 +134,8 @@ export const ServiceDetailModal: React.FC<ServiceDetailModalProps> = ({
           <div className="pt-4 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
             <span className="text-xs text-neutral-400 font-mono">
               {isEn
-                ? 'DECA Energy Consulting AB • Advisory & Execution'
-                : 'DECA Energy Consulting AB • Rådgivning & genomförande'}
+                ? 'DECA Desidera Energy Consulting Agency AB • Advisory & Execution'
+                : 'DECA Desidera Energy Consulting Agency AB • Rådgivning & genomförande'}
             </span>
             <div className="flex items-center gap-3 w-full sm:w-auto">
               <button

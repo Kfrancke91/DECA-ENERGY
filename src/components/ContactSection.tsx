@@ -222,7 +222,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-base font-semibold text-emerald-400 hover:text-emerald-300 transition-colors"
                     >
-                      <span>linkedin.com/in/danieldesidera</span>
+                      <span>Daniel Desidera</span>
                       <ArrowUpRight className="w-4 h-4" />
                     </a>
                     <span className="text-xs text-neutral-400 block">

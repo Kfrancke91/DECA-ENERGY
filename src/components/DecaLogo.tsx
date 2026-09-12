@@ -11,7 +11,7 @@ interface DecaLogoProps {
 export const DecaLogo: React.FC<DecaLogoProps> = ({
   className = '',
   size = 'md',
-  alt = 'DECA Energy Consulting AB',
+  alt = 'DECA Desidera Energy Consulting Agency AB',
 }) => {
   // Dimension heights
   const heightClasses = {
