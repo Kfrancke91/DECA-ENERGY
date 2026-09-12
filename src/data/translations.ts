@@ -216,7 +216,7 @@ export const translations: Record<Language, TranslationContent> = {
       services: 'Services',
       contact: 'Contact',
       tagline: 'Where Energy Meets Markets & People',
-      cta: 'Start a Dialogue',
+      cta: 'Start a dialogue',
     },
     hero: {
       eyebrow: 'DECA Desidera Energy Consulting Agency AB',
