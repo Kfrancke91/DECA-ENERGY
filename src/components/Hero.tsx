@@ -57,4 +57,3 @@ export const Hero: React.FC<HeroProps> = ({ content, onNavigate }) => {
     </section>
   );
 };
-

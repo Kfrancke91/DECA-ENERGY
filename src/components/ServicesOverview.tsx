@@ -48,12 +48,12 @@ export const ServicesOverview: React.FC<ServicesOverviewProps> = ({
         </div>
 
         {/* 4 Interactive Visual Service Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 items-stretch">
           {content.items.map((service) => (
             <div
               key={service.id}
               onClick={() => onOpenServices(service.id)}
-              className="group relative rounded-2xl bg-[#0d2232] border border-white/10 overflow-hidden flex flex-col justify-between hover:border-emerald-400/50 hover:bg-[#102b40] transition-all duration-300 cursor-pointer shadow-lg hover:shadow-2xl hover:-translate-y-1.5"
+              className="group relative rounded-2xl bg-[#0d2232] border border-white/10 overflow-hidden flex flex-col justify-between hover:border-emerald-400/50 hover:bg-[#102b40] transition-all duration-300 cursor-pointer shadow-lg hover:shadow-2xl hover:-translate-y-1.5 h-full"
             >
               {/* Image Preview Thumbnail Header */}
               <div className="relative h-44 sm:h-48 w-full overflow-hidden bg-neutral-950">
