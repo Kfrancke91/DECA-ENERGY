@@ -37,7 +37,7 @@ body {
 
 /* Skywork-matched Hero Section */
 .hero-section {
-  min-height: min(840px, 100vh - 76px);
+  min-height: min(860px, 100vh);
   color: var(--deca-white);
   background: var(--deca-navy);
   position: relative;
@@ -67,11 +67,12 @@ body {
 
 .hero-content {
   z-index: 1;
-  align-items: center;
-  min-height: min(840px, 100vh - 76px);
-  padding-top: 84px;
+  min-height: min(860px, 100vh);
+  padding-top: 140px;
   padding-bottom: 72px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
 }
 
@@ -185,7 +186,7 @@ body {
     min-height: 700px;
   }
   .hero-content {
-    padding-top: 78px;
+    padding-top: 115px;
     padding-bottom: 64px;
   }
 }
@@ -193,6 +194,10 @@ body {
 @media (max-width: 560px) {
   .hero-section, .hero-content {
     min-height: 680px;
+  }
+  .hero-content {
+    padding-top: 100px;
+    padding-bottom: 60px;
   }
   .hero-copy h1 {
     font-size: clamp(3.2rem, 16vw, 4.8rem);
