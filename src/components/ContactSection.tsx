@@ -340,8 +340,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                         onChange={(e) =>
                           setFormData({ ...formData, name: e.target.value })
                         }
-                        placeholder={content.form.namePlaceholder}
-                        className={`w-full px-4 py-3 rounded-xl bg-black/40 border text-white placeholder-neutral-500 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 transition-all ${
+                        className={`w-full px-4 py-3 rounded-xl bg-black/40 border text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 transition-all ${
                           errors.name
                             ? 'border-red-400 focus:ring-red-400'
                             : 'border-white/10 hover:border-white/20'
@@ -371,8 +370,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                         onChange={(e) =>
                           setFormData({ ...formData, email: e.target.value })
                         }
-                        placeholder={content.form.emailPlaceholder}
-                        className={`w-full px-4 py-3 rounded-xl bg-black/40 border text-white placeholder-neutral-500 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 transition-all ${
+                        className={`w-full px-4 py-3 rounded-xl bg-black/40 border text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 transition-all ${
                           errors.email
                             ? 'border-red-400 focus:ring-red-400'
                             : 'border-white/10 hover:border-white/20'
@@ -403,8 +401,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                         onChange={(e) =>
                           setFormData({ ...formData, company: e.target.value })
                         }
-                        placeholder={content.form.companyPlaceholder}
-                        className="w-full px-4 py-3 rounded-xl bg-black/40 border border-white/10 hover:border-white/20 text-white placeholder-neutral-500 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 transition-all"
+                        className="w-full px-4 py-3 rounded-xl bg-black/40 border border-white/10 hover:border-white/20 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 transition-all"
                       />
                     </div>
 
@@ -455,8 +452,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       onChange={(e) =>
                         setFormData({ ...formData, message: e.target.value })
                       }
-                      placeholder={content.form.messagePlaceholder}
-                      className={`w-full px-4 py-3 rounded-xl bg-black/40 border text-white placeholder-neutral-500 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 transition-all resize-y min-h-[110px] ${
+                      className={`w-full px-4 py-3 rounded-xl bg-black/40 border text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-400 transition-all resize-y min-h-[110px] ${
                         errors.message
                           ? 'border-red-400 focus:ring-red-400'
                           : 'border-white/10 hover:border-white/20'
