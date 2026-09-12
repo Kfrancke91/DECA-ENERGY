@@ -1,14 +1,214 @@
 @import "tailwindcss";
 
-@layer base {
-  :root {
-    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --font-display: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
-    --font-mono: 'JetBrains Mono', monospace;
-  }
+:root {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --deca-navy: #03111c;
+  --deca-navy-2: #071e2b;
+  --deca-lime: #79ca31;
+  --deca-lime-hover: #91db4c;
+  --deca-lime-deep: #3f8e31;
+  --deca-amber: #f5a623;
+  --deca-white: #ffffff;
+  --deca-muted: #64757b;
+  --deca-line: #08293121;
+}
 
-  body {
-    font-family: var(--font-sans);
+body {
+  font-family: var(--font-sans);
+}
+
+/* Skywork-matched Shell */
+.shell {
+  width: min(1180px, 100% - 48px);
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .shell {
+    width: min(100% - 36px, 680px);
+  }
+}
+@media (max-width: 560px) {
+  .shell {
+    width: min(100% - 28px, 680px);
+  }
+}
+
+/* Skywork-matched Hero Section */
+.hero-section {
+  min-height: min(860px, 100vh - 78px);
+  color: var(--deca-white);
+  background: var(--deca-navy);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-map-background {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-map-background:after {
+  content: "";
+  background: linear-gradient(90deg, #03111cf5 0%, #03111ccc 37%, #03111c4d 70%, #03111c8f 100%), linear-gradient(#03111c1a, #03111c85);
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.hero-map-background img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.hero-content {
+  z-index: 1;
+  align-items: center;
+  min-height: min(860px, 100vh - 78px);
+  padding-top: 78px;
+  padding-bottom: 80px;
+  display: flex;
+  position: relative;
+}
+
+.hero-copy {
+  max-width: 770px;
+}
+
+.eyebrow {
+  color: var(--deca-amber);
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  align-items: center;
+  gap: 11px;
+  font-size: .72rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.eyebrow-line {
+  background: currentColor;
+  width: 26px;
+  height: 1px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.hero-copy h1 {
+  max-width: 770px;
+  margin-top: 22px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3.8rem, 6.3vw, 6rem);
+  line-height: .94;
+  letter-spacing: -.04em;
+  font-weight: 400;
+  color: var(--deca-white);
+}
+
+.hero-copy h1 em {
+  color: var(--deca-lime);
+  font-style: normal;
+}
+
+.hero-body {
+  color: #ffffffba;
+  max-width: 550px;
+  margin: 28px 0 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.hero-actions {
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 34px;
+  display: flex;
+}
+
+.button {
+  border: 1px solid transparent;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 24px;
+  font-size: .86rem;
+  font-weight: 700;
+  transition: transform .2s, background .2s, color .2s, border-color .2s;
+  display: inline-flex;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button-primary {
+  color: var(--deca-navy);
+  background: var(--deca-lime);
+}
+
+.button-primary:hover {
+  background: var(--deca-lime-hover);
+}
+
+.button-ghost {
+  color: var(--deca-white);
+  border-color: #ffffff3d;
+  background: transparent;
+}
+
+.button-ghost:hover {
+  border-color: var(--deca-amber);
+  color: var(--deca-amber);
+}
+
+.hero-note {
+  color: #ffffff6b;
+  letter-spacing: .05em;
+  align-items: center;
+  gap: 8px;
+  margin: 26px 0 0;
+  font-size: .76rem;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .hero-section, .hero-content {
+    min-height: 700px;
+  }
+  .hero-content {
+    padding-top: 78px;
+    padding-bottom: 64px;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero-section, .hero-content {
+    min-height: 680px;
+  }
+  .hero-copy h1 {
+    font-size: clamp(3.2rem, 16vw, 4.8rem);
+  }
+  .hero-body {
+    font-size: 1rem;
+  }
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero-actions .button {
+    width: 100%;
+  }
+  .hero-map-background img {
+    object-position: 58% center;
   }
 }
 
