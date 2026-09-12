@@ -39,8 +39,6 @@ export const AboutPage: React.FC<AboutPageProps> = ({
 VERSION:3.0
 N:Desidera;Daniel;;;
 FN:Daniel Desidera
-ORG:DECA ENERGY CONSULTING AB
-TITLE:Founder - International Business Development
 EMAIL;TYPE=INTERNET,PREF:daniel@deca-energy.com
 URL:https://deca-energy.com
 URL;TYPE=LinkedIn:https://www.linkedin.com/in/danieldesidera
