@@ -64,9 +64,6 @@ export const ServicesOverview: React.FC<ServicesOverviewProps> = ({
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0d2232] via-[#0d2232]/30 to-transparent" />
-                <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/15 text-emerald-400 text-xs font-mono font-bold">
-                  {service.tag}
-                </div>
               </div>
 
               {/* Card Body */}

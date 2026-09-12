@@ -116,11 +116,8 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
                       {/* Image Overlay Vignette */}
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
 
-                      {/* Top Badges */}
+                      {/* Top Badge */}
                       <div className="absolute top-3.5 left-3.5 sm:top-4 sm:left-4 flex items-center gap-2">
-                        <span className="px-2.5 sm:px-3 py-1 rounded-full bg-black/70 backdrop-blur-md border border-white/20 text-emerald-400 font-mono text-xs font-bold">
-                          {service.tag}
-                        </span>
                         <span className="px-2.5 sm:px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/10 text-white text-xs font-medium">
                           {service.category}
                         </span>

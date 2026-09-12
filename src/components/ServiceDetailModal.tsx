@@ -66,12 +66,9 @@ export const ServiceDetailModal: React.FC<ServiceDetailModalProps> = ({
             <X className="w-5 h-5" />
           </button>
 
-          {/* Tag Pill */}
+          {/* Category Pill */}
           <div className="absolute bottom-4 left-5 sm:left-6 flex items-center gap-2">
             <span className="px-3 py-1 rounded-full bg-emerald-500 text-neutral-950 font-mono font-bold text-xs">
-              {service.tag}
-            </span>
-            <span className="px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-white font-mono text-xs">
               {service.category}
             </span>
           </div>
