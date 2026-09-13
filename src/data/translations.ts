@@ -10,12 +10,13 @@ export const translations: Record<Language, TranslationContent> = {
       tagline: 'Where Energy Meets Markets & People',
       cta: 'Starta en dialog',
     },
+
     hero: {
       eyebrow: '',
       titleStart: 'Där energi möter',
       titleAccent: 'marknader & människor.',
       tagline: 'Where Energy Meets Markets & People',
-      body: 'DECA Desidera Energy Consulting Agency AB grundades av erfarna yrkespersoner med en stark bakgrund inom PV- och BESS-branschen.',
+      body: 'DECA Energy grundades av erfarna yrkespersoner med en stark bakgrund inom PV- och BESS-branschen.',
       primaryCta: 'Vad vi erbjuder:',
       secondaryCta: 'Kontakta DECA',
       note: '',
@@ -25,13 +26,15 @@ export const translations: Record<Language, TranslationContent> = {
         { value: 'Sverige & Europa', label: 'Marknadsförankring & nätverk' },
       ],
     },
+
     proof: {
       eyebrow: 'En pragmatisk partner i en bransch i snabb förändring',
       title: 'Teknisk höjd. Kommersiell tydlighet.',
-      body: 'DECA grundades av erfarna yrkespersoner från PV- och BESS-branschen. Vi kombinerar praktisk ingenjörsförståelse, marknadsperspektiv och en genuin vilja att skapa värde för våra partners.',
+      body: 'DECA Energy grundades av erfarna yrkespersoner från PV- och BESS-branschen. Vi kombinerar praktisk ingenjörsförståelse, marknadsperspektiv och en genuin vilja att skapa värde för våra partners.',
       positionTag: '01 / POSITION',
       positionTitle: 'Där energi möter marknader & människor.',
-      positionBody: 'Vi kombinerar branschexpertis, genuint engagemang och ett lösningsorienterat förhållningssätt med en tydlig ambition: att skapa meningsfullt värde för våra samarbetspartners och aktivt bidra till den fortsatta utvecklingen av den globala PV- och BESS-sektorn.',
+      positionBody:
+        'Vi kombinerar branschexpertis, genuint engagemang och ett lösningsorienterat förhållningssätt med en tydlig ambition: att skapa meningsfullt värde för våra samarbetspartners och aktivt bidra till den fortsatta utvecklingen av den globala PV- och BESS-sektorn.',
       methodTag: '02 / HUR VI ARBETAR',
       methodTitle: 'Kärnkompetenser och leveranser',
       points: [
@@ -62,6 +65,7 @@ export const translations: Record<Language, TranslationContent> = {
         },
       ],
     },
+
     founder: {
       eyebrow: 'Ledning & grundare',
       title: 'Erfarenhet från kärnan i den gröna energiomställningen',
@@ -75,78 +79,92 @@ export const translations: Record<Language, TranslationContent> = {
       website: 'deca-energy.com',
       vcardLabel: 'Ladda ner kontaktkort (vCard)',
     },
+
     services: {
       eyebrow: 'Vad vi erbjuder:',
       title: 'Vad vi erbjuder:',
-      intro: 'DECA Energy erbjuder expertkonsulttjänster och produktrepresentation inom solenergi och energilösningar.',
+      intro:
+        'DECA Energy erbjuder expertkonsulttjänster och produktrepresentation inom solenergi och energilösningar.',
       browseAll: 'Se alla tjänster',
       viewDetails: 'Se mer information',
       inquireService: 'Förfrågan om denna tjänst',
+
       items: [
         {
           id: 'offer-design',
           tag: '',
           kicker: 'Teknik',
           category: 'PV & BESS Design',
-          title: 'PV- och BESS-design',
-          subtitle: 'Single-Line Diagrams & teknisk dokumentation',
-          body: 'Vi omsätter projektets ambitioner i en robust teknisk grund. Vi tar fram single-line-diagram, detaljerad engineering och teknisk dokumentation anpassad efter projektets krav.',
+          title: 'PV & BESS Design',
+          subtitle:
+            'Ellinjeschema, detaljprojektering och teknisk dokumentation',
+          body:
+            'Vi tar fram allt från ellinjeschema och teknisk dokumentation anpassad efter projektets behov.',
           bullets: [
-            'Single-Line Diagrams (SLD)',
+            'Ellinjeschema',
             'Detaljerad teknisk dokumentation',
-            'Projektspecifik teknisk granskning',
+            'Teknisk projektspecifik granskning',
           ],
           imagePath: './assets/slots/offer.design.jpg',
           alt: 'PV och BESS design och teknisk granskning',
           ctaText: 'Prata om ett projekt',
           spriteIndex: 0,
         },
+
         {
           id: 'offer-support',
           tag: '',
-          kicker: 'Leverans',
+          kicker: 'Teknisk support',
           category: 'Teknisk Support',
-          title: 'Avtal för teknisk support',
-          subtitle: 'Support via telefon och e-post samt driftsättning på plats',
-          body: 'Håll teamet i rörelse med en erfaren teknisk partner nära till hands. Support erbjuds via telefon och e-post, med stöd på plats vid driftsättning när projektet kräver det.',
+          title: 'Teknisk support',
+          subtitle:
+            'Support via telefon och e-post samt ute på plats',
+          body:
+            'Håll projektet i rörelse med hjälp av en erfaren teknisk partner nära till hands. Vi erbjuder teknisk support via telefon, e-post samt ute på plats.',
           bullets: [
-            'Support via telefon och e-post',
-            'Stöd på plats vid driftsättning',
-            'Praktisk problemlösning med projektets helhet i fokus',
+            'Teknisk support via telefon',
+            'Teknisk support via e-post',
+            'Teknisk support ute på plats',
           ],
           imagePath: './assets/slots/offer.support.jpg',
-          alt: 'Teknisk support och driftsättning',
+          alt: 'Teknisk support på distans och ute på plats',
           ctaText: 'Diskutera support',
           spriteIndex: 1,
         },
+
         {
           id: 'offer-market',
           tag: '',
           kicker: 'Marknadsinträde',
           category: 'Affärsutveckling',
-          title: 'Retainer för affärsutveckling',
-          subtitle: 'Sälj- och go-to-market-strategier för Sverige',
-          body: 'Bygg vägen till marknaden före den officiella lanseringen. DECA utvecklar sälj- och go-to-market-strategier för internationella PV- och BESS-tillverkare som går in i eller växer på den svenska marknaden.',
+          title: 'Affärsutveckling',
+          subtitle:
+            'Sälj- och go-to-market-strategier för den svenska marknaden',
+          body:
+            'DECA Energy utvecklar sälj- och go-to-market-strategier för internationella PV- och BESS-tillverkare som vill ta sig in eller vill växa på den svenska marknaden.',
           bullets: [
-            'Positionering på den svenska marknaden',
+            'Hjälp med positionering på den svenska marknaden',
             'Säljstrategi och partnerkartläggning',
-            'Lanseringsförberedelser och lokal kontext',
+            'Lanseringsförberedelser',
           ],
           imagePath: './assets/slots/offer.market.jpg',
           alt: 'Affärsutveckling och marknadsstrategi',
           ctaText: 'Planera marknadsinträdet',
           spriteIndex: 2,
         },
+
         {
           id: 'offer-events',
           tag: '',
           kicker: 'Marknadsinsikt',
           category: 'Projektledning & Mässor',
-          title: 'Projektledning & marknadsrepresentation',
-          subtitle: 'Projektledning till fast pris eller månadsretainer',
-          body: 'Gå från insikt till genomförande med projektledning till fast projektpris eller månadsretainer, tillsammans med branschanalyser, produktjämförelser och trygg representation på mässor och branschevent.',
+          title: 'Projektledning & Mässor',
+          subtitle:
+            'Projektledning, branschanalys och marknadsrepresentation',
+          body:
+            'Gå från insikt till genomförande med hjälp av projektledning, branschanalyser, produktjämförelser och trygg representation på mässor och branschevent.',
           bullets: [
-            'Projektledning till fast pris eller månadsretainer',
+            'Hjälp med projektledning',
             'Branschanalys och produktjämförelser',
             'Säljrepresentation på mässor och event',
           ],
@@ -157,18 +175,23 @@ export const translations: Record<Language, TranslationContent> = {
         },
       ],
     },
+
     contact: {
       eyebrow: 'Låt oss höras',
       title: 'Ett tydligare nästa steg börjar med ett bra samtal.',
-      body: 'Berätta var du befinner dig i din projekt-, produkt- eller marknadsresa. Vi tar med rätt frågor och ett praktiskt perspektiv.',
+      body:
+        'Berätta gärna var du befinner dig i din process med projekt-, produkt- eller marknadsresa. Vi tar med rätt frågor och ett praktiskt lösningsperspektiv.',
       directTitle: 'Direktkontakt',
-      directDesc: 'Tveka inte att höra av dig direkt för brådskande eller konfidentiella förfrågningar.',
+      directDesc:
+        'Tveka inte att höra av dig direkt för brådskande eller konfidentiella förfrågningar.',
       emailLabel: 'E-post DECA Energy',
       locationLabel: 'Verksamhetsområde',
+
       form: {
         eyebrow: 'Skicka en förfrågan',
         title: 'Berätta vad du behöver hjälp med.',
-        body: 'Fyll i formuläret nedan för att skicka ditt meddelande direkt till DECA Energy',
+        body:
+          'Fyll i formuläret nedan för att skicka ditt meddelande direkt till DECA Energy',
         nameLabel: 'Ditt namn *',
         namePlaceholder: '',
         emailLabel: 'Din e-postadress *',
@@ -178,26 +201,33 @@ export const translations: Record<Language, TranslationContent> = {
         serviceLabel: 'Område av intresse',
         serviceOptions: [
           { id: 'all', label: 'Allmän förfrågan / Rådgivning' },
-          { id: 'offer-design', label: 'PV- och BESS-design (SLD)' },
-          { id: 'offer-support', label: 'Avtal för teknisk support' },
-          { id: 'offer-market', label: 'Retainer för affärsutveckling' },
-          { id: 'offer-events', label: 'Projektledning & Mässrepresentation' },
+          { id: 'offer-design', label: 'PV & BESS Design' },
+          { id: 'offer-support', label: 'Teknisk support' },
+          { id: 'offer-market', label: 'Affärsutveckling' },
+          {
+            id: 'offer-events',
+            label: 'Projektledning & Mässor',
+          },
         ],
         messageLabel: 'Hur kan vi hjälpa dig? *',
         messagePlaceholder: '',
         submitBtn: 'Skicka förfrågan',
         submittingBtn: 'Skickar meddelande...',
         successTitle: 'Tack för ditt meddelande!',
-        successBody: 'Vi har tagit emot din förfrågan och återkommer personligen till dig inom 24 timmar.',
-        errorMessage: 'Ett fel uppstod vid överföringen. Du kan också mejla oss direkt på daniel@deca-energy.com.',
+        successBody:
+          'Vi har tagit emot din förfrågan och återkommer personligen till dig inom 24 timmar.',
+        errorMessage:
+          'Ett fel uppstod vid överföringen. Du kan också mejla oss direkt på daniel@deca-energy.com.',
         sendAnother: 'Skicka ytterligare ett meddelande',
         directEmailNote: 'Eller mejla direkt till',
       },
     },
+
     footer: {
       tagline: 'Where Energy Meets Markets & People.',
       company: 'DECA Desidera Energy Consulting Agency AB',
-      rights: '© 2026 DECA Desidera Energy Consulting Agency AB. Alla rättigheter förbehållna.',
+      rights:
+        '© 2026 DECA Desidera Energy Consulting Agency AB. Alla rättigheter förbehållna.',
       location: 'Runt om i Europa',
       backToTop: 'Till toppen ↑',
       links: [
@@ -218,28 +248,40 @@ export const translations: Record<Language, TranslationContent> = {
       tagline: 'Where Energy Meets Markets & People',
       cta: 'Start a dialogue',
     },
+
     hero: {
       eyebrow: '',
       titleStart: 'Where Energy Meets',
       titleAccent: 'Markets & People.',
       tagline: 'Where Energy Meets Markets & People',
-      body: 'DECA Desidera Energy Consulting Agency AB was founded by experienced professionals with a strong background in the PV & BESS industry.',
+      body:
+        'DECA Energy was founded by experienced professionals with a strong background in the PV & BESS industry.',
       primaryCta: 'What we offer:',
       secondaryCta: 'Contact DECA',
       note: '',
       stats: [
         { value: 'PV + BESS', label: 'Utility & C&I Clean Energy' },
-        { value: 'Technical & Commercial', label: 'End-to-end advisory rigor' },
-        { value: 'Sweden & Global', label: 'Market entrance & partnerships' },
+        {
+          value: 'Technical & Commercial',
+          label: 'End-to-end advisory rigor',
+        },
+        {
+          value: 'Sweden & Global',
+          label: 'Market entrance & partnerships',
+        },
       ],
     },
+
     proof: {
-      eyebrow: 'DECA Desidera Energy Consulting Agency AB',
+      eyebrow: 'DECA Energy',
       title: 'Where Energy Meets Markets & People.',
-      body: 'We combine industry expertise, genuine passion, and a solution-driven mindset with one clear ambition: to create meaningful value for our partners and actively contribute to the continued growth, development, and evolution of the global PV & BESS industry.',
+      body:
+        'We combine industry expertise, genuine passion, and a solution-driven mindset with one clear ambition: to create meaningful value for our partners and actively contribute to the continued growth, development, and evolution of the global PV & BESS industry.',
       positionTag: '01 / POSITION',
-      positionTitle: 'A pragmatic partner in a fast-moving energy landscape.',
-      positionBody: 'Founded by experienced industry veterans, DECA merges technical depth with commercial sharpness to empower solar PV developers, battery manufacturers, and energy infrastructure funds.',
+      positionTitle:
+        'A pragmatic partner in a fast-moving energy landscape.',
+      positionBody:
+        'Founded by experienced industry veterans, DECA merges technical depth with commercial sharpness to empower solar PV developers, battery manufacturers, and energy infrastructure funds.',
       methodTag: '02 / HOW WE WORK',
       methodTitle: 'Core Capabilities & Service Pillars',
       points: [
@@ -270,26 +312,31 @@ export const translations: Record<Language, TranslationContent> = {
         },
       ],
     },
+
     founder: {
       eyebrow: 'Leadership & Founder',
       title: 'Decades of Clean Energy Experience in One Partner',
       name: 'Daniel Desidera',
       role: 'Founder - International Business Development',
       company: 'DECA DESIDERA ENERGY CONSULTING AGENCY AB',
-      bio: 'With deep international roots across the solar photovoltaic and battery storage sectors, Daniel Desidera serves as a trusted bridge between global manufacturers, Scandinavian developers, EPC contractors, and grid operators.',
+      bio:
+        'With deep international roots across the solar photovoltaic and battery storage sectors, Daniel Desidera serves as a trusted bridge between global manufacturers, Scandinavian developers, EPC contractors, and grid operators.',
       location: 'Around Europe',
       email: 'daniel@deca-energy.com',
       linkedin: 'https://www.linkedin.com/in/danieldesidera',
       website: 'deca-energy.com',
       vcardLabel: 'Download Contact Card (vCard)',
     },
+
     services: {
       eyebrow: 'What we offer:',
       title: 'What we offer:',
-      intro: 'DECA Energy provides expert consulting services and product representation within the solar energy and energy solutions sectors.',
+      intro:
+        'DECA Energy provides expert consulting services and product representation within the solar energy and energy solutions sectors.',
       browseAll: 'Browse All Services',
       viewDetails: 'View Details',
       inquireService: 'Inquire About This Service',
+
       items: [
         {
           id: 'offer-design',
@@ -298,7 +345,8 @@ export const translations: Record<Language, TranslationContent> = {
           category: 'PV & BESS Design',
           title: 'PV & BESS Design',
           subtitle: 'Single-Line Diagrams & Technical Documentation',
-          body: 'Single-Line Diagrams (SLD), detailed engineering and technical documentation, tailored to the specific requirements of each project.',
+          body:
+            'Single-Line Diagrams (SLD), detailed engineering and technical documentation, tailored to the specific requirements of each project.',
           bullets: [
             'Single-Line Diagrams (SLD)',
             'Detailed engineering and technical documentation',
@@ -309,6 +357,7 @@ export const translations: Record<Language, TranslationContent> = {
           ctaText: 'Discuss a project',
           spriteIndex: 0,
         },
+
         {
           id: 'offer-support',
           tag: '',
@@ -316,7 +365,8 @@ export const translations: Record<Language, TranslationContent> = {
           category: 'Technical Support',
           title: 'Technical Support Agreement',
           subtitle: 'Remote support and on-site commissioning',
-          body: 'Technical support by phone / email. On-site commissioning support.',
+          body:
+            'Technical support by phone / email. On-site commissioning support.',
           bullets: [
             'Technical support by phone and email',
             'On-site commissioning support',
@@ -327,14 +377,17 @@ export const translations: Record<Language, TranslationContent> = {
           ctaText: 'Discuss support',
           spriteIndex: 1,
         },
+
         {
           id: 'offer-market',
           tag: '',
           kicker: 'Market Entrance',
           category: 'Business Development',
           title: 'Business Development Retainer',
-          subtitle: 'GTM strategy for Sweden and international manufacturers',
-          body: 'Development of sales and go-to-market strategies ahead of an official product launch, particularly for international PV & BESS manufacturers entering or expanding into the Swedish market.',
+          subtitle:
+            'GTM strategy for Sweden and international manufacturers',
+          body:
+            'Development of sales and go-to-market strategies ahead of an official product launch, particularly for international PV & BESS manufacturers entering or expanding into the Swedish market.',
           bullets: [
             'Positioning in the Swedish market',
             'Sales strategy and partner mapping',
@@ -345,6 +398,7 @@ export const translations: Record<Language, TranslationContent> = {
           ctaText: 'Plan market entrance',
           spriteIndex: 2,
         },
+
         {
           id: 'offer-events',
           tag: '',
@@ -352,7 +406,8 @@ export const translations: Record<Language, TranslationContent> = {
           category: 'Project Management',
           title: 'Project Management',
           subtitle: 'Fixed project fee or monthly retainer agreement',
-          body: 'Project management services offered at a fixed project fee or through a monthly retainer agreement.',
+          body:
+            'Project management services offered at a fixed project fee or through a monthly retainer agreement.',
           bullets: [
             'Project management at a fixed project fee or monthly retainer',
             'Industry analysis and product benchmarking',
@@ -365,18 +420,23 @@ export const translations: Record<Language, TranslationContent> = {
         },
       ],
     },
+
     contact: {
       eyebrow: 'Let’s talk',
       title: 'A clearer next step starts with a good conversation.',
-      body: 'Tell us where you are in your project, product, or market journey. We bring the right questions and a practical perspective.',
+      body:
+        'Tell us where you are in your project, product, or market journey. We bring the right questions and a practical perspective.',
       directTitle: 'Direct contact',
-      directDesc: 'Do not hesitate to reach out directly for urgent or confidential inquiries.',
+      directDesc:
+        'Do not hesitate to reach out directly for urgent or confidential inquiries.',
       emailLabel: 'Email DECA Energy',
       locationLabel: 'Operating Scope',
+
       form: {
         eyebrow: 'Send an inquiry',
         title: 'Tell us what you need help with.',
-        body: 'Fill out the form below to send your message directly to DECA Energy',
+        body:
+          'Fill out the form below to send your message directly to DECA Energy',
         nameLabel: 'Your name *',
         namePlaceholder: '',
         emailLabel: 'Your email address *',
@@ -387,25 +447,38 @@ export const translations: Record<Language, TranslationContent> = {
         serviceOptions: [
           { id: 'all', label: 'General inquiry / Advisory' },
           { id: 'offer-design', label: 'PV and BESS Design (SLD)' },
-          { id: 'offer-support', label: 'Technical Support Agreement' },
-          { id: 'offer-market', label: 'Business Development Retainer' },
-          { id: 'offer-events', label: 'Project Management & Trade Fair Representation' },
+          {
+            id: 'offer-support',
+            label: 'Technical Support Agreement',
+          },
+          {
+            id: 'offer-market',
+            label: 'Business Development Retainer',
+          },
+          {
+            id: 'offer-events',
+            label: 'Project Management & Trade Fair Representation',
+          },
         ],
         messageLabel: 'How can we help you? *',
         messagePlaceholder: '',
         submitBtn: 'Send inquiry',
         submittingBtn: 'Sending message...',
         successTitle: 'Thank you for your message!',
-        successBody: 'We have received your inquiry and will get back to you personally within 24 hours.',
-        errorMessage: 'An error occurred during submission. You can also email us directly at daniel@deca-energy.com.',
+        successBody:
+          'We have received your inquiry and will get back to you personally within 24 hours.',
+        errorMessage:
+          'An error occurred during submission. You can also email us directly at daniel@deca-energy.com.',
         sendAnother: 'Send another message',
         directEmailNote: 'Or email directly to',
       },
     },
+
     footer: {
       tagline: 'Where Energy Meets Markets & People.',
       company: 'DECA Desidera Energy Consulting Agency AB',
-      rights: '© 2026 DECA Desidera Energy Consulting Agency AB. All rights reserved.',
+      rights:
+        '© 2026 DECA Desidera Energy Consulting Agency AB. All rights reserved.',
       location: 'Around Europe',
       backToTop: 'Back to top ↑',
       links: [
