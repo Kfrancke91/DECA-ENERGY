@@ -99,21 +99,18 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
                       isReversed ? 'lg:order-2' : 'lg:order-1'
                     }`}
                   >
-                    <div
-                      onClick={() => onSelectService(service)}
-                      className="group relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl sm:shadow-2xl border border-neutral-300/80 bg-neutral-900 cursor-pointer transform transition-all duration-300 hover:-translate-y-1 hover:shadow-emerald-900/10"
-                    >
+                  <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl sm:shadow-2xl border border-neutral-300/80 bg-neutral-900">
                       <div className="aspect-[4/3] sm:aspect-[16/11] w-full overflow-hidden">
                         <img
                           src={service.imagePath}
                           alt={service.alt}
-                          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 filter brightness-95 group-hover:brightness-100"
+                          className="w-full h-full object-cover object-center filter brightness-95"
                           loading="lazy"
                         />
                       </div>
 
                       {/* Image Overlay Vignette */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80" />
 
                      {/* Top Badge */}
 <div className="absolute top-3.5 left-3.5 sm:top-4 sm:left-4 flex items-center gap-2">
