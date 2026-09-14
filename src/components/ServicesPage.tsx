@@ -3,7 +3,6 @@ import {
   ArrowLeft,
   CheckCircle2,
   ArrowRight,
-  Maximize2,
   FileCheck2,
   Send,
   Sparkles,
@@ -116,46 +115,31 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
                       {/* Image Overlay Vignette */}
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
 
-                      {/* Top Badge */}
-                      <div className="absolute top-3.5 left-3.5 sm:top-4 sm:left-4 flex items-center gap-2">
-                        <span className="px-2.5 sm:px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/10 text-white text-xs font-medium">
-                          {service.category}
-                        </span>
-                      </div>
+                     {/* Top Badge */}
+<div className="absolute top-3.5 left-3.5 sm:top-4 sm:left-4 flex items-center gap-2">
+  <span className="px-2.5 sm:px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/10 text-white text-xs font-medium">
+    {service.category}
+  </span>
+</div>
+</div>
+</div>
 
-                      {/* Click to expand hint */}
-                      <div className="absolute bottom-3.5 right-3.5 sm:bottom-4 sm:right-4 flex items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-white/90 hover:bg-white text-neutral-950 text-xs font-semibold shadow-lg backdrop-blur-sm transition-transform duration-200 group-hover:scale-105">
-                        <Maximize2 className="w-3.5 h-3.5 text-emerald-700" />
-                        <span>{isEn ? 'Click for details' : 'Klicka för detaljer'}</span>
-                      </div>
-                    </div>
-                  </div>
+{/* Content Column */}
+<div
+  className={`lg:col-span-6 ${
+    isReversed ? 'lg:order-1' : 'lg:order-2'
+  }`}
+>
+  <div className="space-y-4 sm:space-y-6">
+    <h2 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-[#03111c] tracking-tight leading-tight">
+      {service.title}
+    </h2>
 
-                  {/* Content Column */}
-                  <div
-                    className={`lg:col-span-6 ${
-                      isReversed ? 'lg:order-1' : 'lg:order-2'
-                    }`}
-                  >
-                    <div className="space-y-4 sm:space-y-6">
-                      <div className="text-xs font-mono font-bold tracking-widest text-emerald-700 uppercase">
-                        {service.kicker}
-                      </div>
+    <p className="text-sm sm:text-base md:text-lg text-neutral-700 leading-relaxed font-sans">
+      {service.fullDescription || service.body}
+    </p>
 
-                      <div>
-                        <h2 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-[#03111c] tracking-tight leading-tight mb-2">
-                          {service.title}
-                        </h2>
-                        <p className="text-sm sm:text-base md:text-lg font-medium text-emerald-800">
-                          {service.subtitle}
-                        </p>
-                      </div>
-
-                      <p className="text-sm sm:text-base md:text-lg text-neutral-700 leading-relaxed font-sans">
-                        {service.fullDescription || service.body}
-                      </p>
-
-                      {/* Bullet points */}
+    {/* Bullet points */}
                       <div className="space-y-2.5 sm:space-y-3 pt-1 sm:pt-2">
                         {service.bullets.map((bullet, bIdx) => (
                           <div key={bIdx} className="flex items-start gap-3">
